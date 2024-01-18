@@ -59,7 +59,7 @@ const Links = ({ session }) => {
       {open && (
         <div className={styles.mobileLinks}>
           {links.map((link) => (
-            <NavLink link={link} />
+            <NavLink key={link.title} link={link} />
           ))}
           {isLogin ? (
             <>

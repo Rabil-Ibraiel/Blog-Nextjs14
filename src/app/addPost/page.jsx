@@ -4,7 +4,7 @@ import { createPost } from "@/lib/action";
 import styles from "./addPost.module.css";
 import { useRouter } from "next/navigation";
 
-const page = () => {
+const AddPost = () => {
   const router = useRouter();
   function handleSubmit() {
     router.push("/blog");
@@ -35,4 +35,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default AddPost;

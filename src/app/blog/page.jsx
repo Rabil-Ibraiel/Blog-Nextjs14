@@ -10,7 +10,7 @@ const page = async () => {
   return (
     <div className={styles.container}>
       {post?.map((item) => 
-        (<div className={styles.post}>
+        (<div key={item._id} className={styles.post}>
           <PostCard post={item}/>
         </div>)
       )}
