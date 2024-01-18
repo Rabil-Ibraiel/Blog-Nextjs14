@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  gap: 100px;
+}
+
+.textContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.imgContainer {
+  flex: 1;
+  position: relative;
+
+}
+
+.imgContainer img {
+  object-fit: contain;
+}
+
+.title {
+  font-size: 96px;
+}
+
+.desc {
+  font-style: 20px;
+}
+
+.btns {
+  display: flex;
+  gap: 25px;
+}
+
+.btn {
+  background-color: var(--text);
+  color: var(--bg);
+  padding: 20px 25px;
+  border-radius: 5px;
+}
+
+.btn:first-child {
+  background-color: var(--btn);
+  color: var(--text);
+}
+
+.textImg {
+  position: relative;
+  width: 500px;
+  height: 50px;
+  filter: grayscale(100%);
+}
+
+
+@media screen and (max-width: 1280px) {
+  .imgContainer {
+    display: none;
+  }
+}

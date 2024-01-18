@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    gap: 50px;
+    min-height: calc(100vh - 200px);
+}
+
+.imgContainer {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.img {
+    object-fit: cover;
+}
+
+.textContainer {
+    flex: 2;
+}
+
+.title {
+    margin-bottom: 25px;
+}
+
+.desc {
+    font-size: 14px;
+}

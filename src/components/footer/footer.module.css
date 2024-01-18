@@ -1,0 +1,15 @@
+.container {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container p {
+    color: var(--textSoft);
+    opacity: 0.5;
+}
+
+.container p:last-child {
+    font-size: 14px;
+}

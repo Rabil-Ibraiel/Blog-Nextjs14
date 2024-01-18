@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.title {
+    margin: 25px 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 25px;
+}
+
+.form input, .form textarea{
+    border: none;
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 5px;
+    color: var(--text);
+    outline: none;
+    resize: vertical;
+}
+
+
+.btn {
+    background-color: var(--btn);
+    color: var(--text);
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

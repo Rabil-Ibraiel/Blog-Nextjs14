@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    background-color: var(--bgSoft);
+    padding: 5px 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    gap: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.form:hover {
+    background-color: #1a1927;
+}
+
+.google {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--text);
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+
+.imgContainer {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.img {
+    object-fit: contain;
+}
